@@ -1,0 +1,14 @@
+version: "{build}"
+
+environment:
+  nodejs_version: "5.4"
+
+install:
+  - ps: Install-Product node $env:nodejs_version
+  - npm install
+
+cache:
+  - node_modules
+
+test_script:
+  - npm test -- -b ie
