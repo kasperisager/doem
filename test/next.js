@@ -15,28 +15,13 @@ test('gets the succeeding sibling of an element', t => {
   t.end();
 });
 
-test('can filter by a selector', t => {
-  const scope = fragment(`
-    <div id=foo></div>
-    <div id=bar></div>
-  `);
-
-  const foo = find(scope, '#foo');
-
-  t.is(next(foo, '#bar').id, 'bar');
-  t.end();
-});
-
 test('returns null if no match is found', t => {
   const scope = fragment(`
     <div id=foo></div>
-    <div id=bar></div>
   `);
 
   const foo = find(scope, '#foo');
-  const bar = find(scope, '#bar');
 
-  t.is(next(bar), null);
-  t.is(next(foo, '#foo'), null);
+  t.is(next(foo), null);
   t.end();
 });

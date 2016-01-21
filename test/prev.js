@@ -15,28 +15,13 @@ test('gets the preceeding sibling of an element', t => {
   t.end();
 });
 
-test('can filter by a selector', t => {
-  const scope = fragment(`
-    <div id=foo></div>
-    <div id=bar></div>
-  `);
-
-  const bar = find(scope, '#bar');
-
-  t.is(prev(bar, '#foo').id, 'foo');
-  t.end();
-});
-
 test('returns null if no match is found', t => {
   const scope = fragment(`
     <div id=foo></div>
-    <div id=bar></div>
   `);
 
   const foo = find(scope, '#foo');
-  const bar = find(scope, '#bar');
 
   t.is(prev(foo), null);
-  t.is(prev(bar, '#bar'), null);
   t.end();
 });
