@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A functional DOM traversal and manipulation library for modern browsers",
   "scripts": {
-    "test": "xo && globstar -v -- browserify test/*.js | tape-run"
+    "test": "xo && globstar -- browserify test/*.js | tape-run"
   },
   "repository": {
     "type": "git",

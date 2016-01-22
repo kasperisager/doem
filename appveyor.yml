@@ -13,4 +13,4 @@ cache:
 build: off
 
 test_script:
-  - ps: npm test -- -b ie
+  - npm test -- -b ie
