@@ -14,6 +14,6 @@ test('adds a class to an element', t => {
   t.is(element.className, 'foo');
 
   addClass(element, 'bar');
-  t.not(element.className, 'foo bar');
+  t.is(element.className, 'foo bar');
   t.end();
 });
