@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A functional DOM traversal and manipulation library for modern browsers",
   "scripts": {
-    "test": "xo && globstar -- browserify test/*.js | tape-run --render=faucet"
+    "test": "xo && globstar -- browserify test/*.js | tape-run"
   },
   "repository": {
     "type": "git",
@@ -28,7 +28,6 @@
     "babel-preset-es2015": "^6.3.13",
     "babelify": "^7.2.0",
     "browserify": "^13.0.0",
-    "faucet": "0.0.1",
     "globstar": "^1.0.0",
     "tape": "^4.4.0",
     "tape-run": "^2.1.2",
