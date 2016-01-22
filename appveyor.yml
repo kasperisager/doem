@@ -10,5 +10,7 @@ install:
 cache:
   - node_modules
 
+build: off
+
 test_script:
   - npm test -- -b ie
