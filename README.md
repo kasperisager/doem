@@ -8,11 +8,11 @@ Døm was born out of the need of a minimal set of functional-style DOM utilities
 
 ## Contents
 
-- [Installation][#installation]
-- [Usage][#usage]
-- [API][#api]
-- [Browser support][#browser-support]
-- [License][#license]
+- [Installation](#installation)
+- [Usage](#usage)
+- [API](#api)
+- [Browser support](#browser-support)
+- [License](#license)
 
 ## Installation
 
