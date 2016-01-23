@@ -33,65 +33,65 @@ html(el, 'Hello World!');
 
 ### addClass
 
-[lib/addClass.js:7-9](https://github.com/kasperisager/doem/blob/f43f9ebd8eae8ffea4e23afea60329afe308be69/lib/addClass.js#L7-L9 "Source code on GitHub")
+[lib/addClass.js:7-9](https://github.com/kasperisager/doem/blob/66dfd682fba4595fe30bf335cfa8f6cddd352472/lib/addClass.js#L7-L9 "Source code on GitHub")
 
 Add a class to an element.
 
 **Parameters**
 
 -   `element` **Element** The element to add the class to.
--   `name` **String** The name of the class to add.
+-   `name` **string** The name of the class to add.
 
 ### after
 
-[lib/after.js:7-9](https://github.com/kasperisager/doem/blob/f43f9ebd8eae8ffea4e23afea60329afe308be69/lib/after.js#L7-L9 "Source code on GitHub")
+[lib/after.js:7-9](https://github.com/kasperisager/doem/blob/66dfd682fba4595fe30bf335cfa8f6cddd352472/lib/after.js#L7-L9 "Source code on GitHub")
 
 Insert HTML after an element.
 
 **Parameters**
 
 -   `element` **Element** The element to insert the HTML after.
--   `html` **String** The HTML to insert after the element.
+-   `html` **string** The HTML to insert after the element.
 
 ### append
 
-[lib/append.js:7-9](https://github.com/kasperisager/doem/blob/f43f9ebd8eae8ffea4e23afea60329afe308be69/lib/append.js#L7-L9 "Source code on GitHub")
+[lib/append.js:7-9](https://github.com/kasperisager/doem/blob/66dfd682fba4595fe30bf335cfa8f6cddd352472/lib/append.js#L7-L9 "Source code on GitHub")
 
 Insert HTML at the end of an element.
 
 **Parameters**
 
 -   `element` **Element** The element to insert the HTML at the end of.
--   `html` **String** The HTML to insert at the end of the element.
+-   `html` **string** The HTML to insert at the end of the element.
 
 ### attr
 
-[lib/attr.js:9-38](https://github.com/kasperisager/doem/blob/f43f9ebd8eae8ffea4e23afea60329afe308be69/lib/attr.js#L9-L38 "Source code on GitHub")
+[lib/attr.js:9-38](https://github.com/kasperisager/doem/blob/66dfd682fba4595fe30bf335cfa8f6cddd352472/lib/attr.js#L9-L38 "Source code on GitHub")
 
 Get or set the value of an attribute of an element.
 
 **Parameters**
 
 -   `element` **Element** The element whose attribute to get or set.
--   `name` **String** The name of the attribute to get or set.
+-   `name` **string** The name of the attribute to get or set.
 -   `value` **[Any]** The value of the attribute if setting.
 
 Returns **Any** The value of the attribute if getting.
 
 ### before
 
-[lib/before.js:7-9](https://github.com/kasperisager/doem/blob/f43f9ebd8eae8ffea4e23afea60329afe308be69/lib/before.js#L7-L9 "Source code on GitHub")
+[lib/before.js:7-9](https://github.com/kasperisager/doem/blob/66dfd682fba4595fe30bf335cfa8f6cddd352472/lib/before.js#L7-L9 "Source code on GitHub")
 
 Insert HTML before an element.
 
 **Parameters**
 
 -   `element` **Element** The element to insert the HTML before.
--   `html` **String** The HTML to insert before the element.
+-   `html` **string** The HTML to insert before the element.
 
 ### children
 
-[lib/children.js:9-21](https://github.com/kasperisager/doem/blob/f43f9ebd8eae8ffea4e23afea60329afe308be69/lib/children.js#L9-L21 "Source code on GitHub")
+[lib/children.js:9-21](https://github.com/kasperisager/doem/blob/66dfd682fba4595fe30bf335cfa8f6cddd352472/lib/children.js#L9-L21 "Source code on GitHub")
 
 Get all the children of an element.
 
@@ -103,7 +103,7 @@ Returns **Array&lt;Element&gt;** The children of the element.
 
 ### clone
 
-[lib/clone.js:7-9](https://github.com/kasperisager/doem/blob/f43f9ebd8eae8ffea4e23afea60329afe308be69/lib/clone.js#L7-L9 "Source code on GitHub")
+[lib/clone.js:7-9](https://github.com/kasperisager/doem/blob/66dfd682fba4595fe30bf335cfa8f6cddd352472/lib/clone.js#L7-L9 "Source code on GitHub")
 
 Create a deep copy on an element.
 
@@ -115,20 +115,20 @@ Returns **Element** The copy of the element.
 
 ### closest
 
-[lib/closest.js:11-21](https://github.com/kasperisager/doem/blob/f43f9ebd8eae8ffea4e23afea60329afe308be69/lib/closest.js#L11-L21 "Source code on GitHub")
+[lib/closest.js:11-21](https://github.com/kasperisager/doem/blob/66dfd682fba4595fe30bf335cfa8f6cddd352472/lib/closest.js#L11-L21 "Source code on GitHub")
 
 Get the closest matching descendant of an element.
 
 **Parameters**
 
 -   `element` **Element** The element whose descendant to get.
--   `selector` **String** The selector to match against.
+-   `selector` **string** The selector to match against.
 
 Returns **Element** The closest matching descendant if found.
 
 ### contains
 
-[lib/contains.js:8-10](https://github.com/kasperisager/doem/blob/f43f9ebd8eae8ffea4e23afea60329afe308be69/lib/contains.js#L8-L10 "Source code on GitHub")
+[lib/contains.js:8-10](https://github.com/kasperisager/doem/blob/66dfd682fba4595fe30bf335cfa8f6cddd352472/lib/contains.js#L8-L10 "Source code on GitHub")
 
 Check if an element is a descendant of another element.
 
@@ -141,35 +141,35 @@ Returns **Boolean** True if the child is a descendant of the parent.
 
 ### css
 
-[lib/css.js:11-17](https://github.com/kasperisager/doem/blob/f43f9ebd8eae8ffea4e23afea60329afe308be69/lib/css.js#L11-L17 "Source code on GitHub")
+[lib/css.js:11-17](https://github.com/kasperisager/doem/blob/66dfd682fba4595fe30bf335cfa8f6cddd352472/lib/css.js#L11-L17 "Source code on GitHub")
 
 Get or set the value of a CSS property of an element.
 
 **Parameters**
 
 -   `element` **Element** The element whose CSS property to get or set.
--   `property` **String** The CSS property to get or set.
+-   `property` **string** The CSS property to get or set.
 -   `value` **[Any]** The value of the CSS property if setting.
 
 Returns **Any** The value of the CSS property if getting.
 
 ### data
 
-[lib/data.js:9-17](https://github.com/kasperisager/doem/blob/f43f9ebd8eae8ffea4e23afea60329afe308be69/lib/data.js#L9-L17 "Source code on GitHub")
+[lib/data.js:9-17](https://github.com/kasperisager/doem/blob/66dfd682fba4595fe30bf335cfa8f6cddd352472/lib/data.js#L9-L17 "Source code on GitHub")
 
 Get or set the value of a data attribute of an element.
 
 **Parameters**
 
 -   `element` **Element** The element whose data attribute to get or set.
--   `key` **String** The key of the data attribute to get or set.
+-   `key` **string** The key of the data attribute to get or set.
 -   `value` **[Any]** The value of the data attribute if setting.
 
 Returns **Any** The value of the data attribute if getting.
 
 ### empty
 
-[lib/empty.js:8-10](https://github.com/kasperisager/doem/blob/f43f9ebd8eae8ffea4e23afea60329afe308be69/lib/empty.js#L8-L10 "Source code on GitHub")
+[lib/empty.js:8-10](https://github.com/kasperisager/doem/blob/66dfd682fba4595fe30bf335cfa8f6cddd352472/lib/empty.js#L8-L10 "Source code on GitHub")
 
 Remove all children (including text) from an element.
 
@@ -179,46 +179,46 @@ Remove all children (including text) from an element.
 
 ### find
 
-[lib/find.js:8-10](https://github.com/kasperisager/doem/blob/f43f9ebd8eae8ffea4e23afea60329afe308be69/lib/find.js#L8-L10 "Source code on GitHub")
+[lib/find.js:8-10](https://github.com/kasperisager/doem/blob/66dfd682fba4595fe30bf335cfa8f6cddd352472/lib/find.js#L8-L10 "Source code on GitHub")
 
 Find the first element matching a query.
 
 **Parameters**
 
 -   `scope` **Element or Document** The scope to look through.
--   `query` **String** The query to use for looking up the element.
+-   `query` **string** The query to use for looking up the element.
 
 Returns **Element** The element if found.
 
 ### findAll
 
-[lib/findAll.js:8-10](https://github.com/kasperisager/doem/blob/f43f9ebd8eae8ffea4e23afea60329afe308be69/lib/findAll.js#L8-L10 "Source code on GitHub")
+[lib/findAll.js:8-10](https://github.com/kasperisager/doem/blob/66dfd682fba4595fe30bf335cfa8f6cddd352472/lib/findAll.js#L8-L10 "Source code on GitHub")
 
 Find all elements matching a query.
 
 **Parameters**
 
 -   `scope` **Element or Document** The scope to look through.
--   `query` **String** The query to use for looking up the elements.
+-   `query` **string** The query to use for looking up the elements.
 
 Returns **Array&lt;Element&gt;** The elements if found.
 
 ### hasClass
 
-[lib/hasClass.js:8-10](https://github.com/kasperisager/doem/blob/f43f9ebd8eae8ffea4e23afea60329afe308be69/lib/hasClass.js#L8-L10 "Source code on GitHub")
+[lib/hasClass.js:8-10](https://github.com/kasperisager/doem/blob/66dfd682fba4595fe30bf335cfa8f6cddd352472/lib/hasClass.js#L8-L10 "Source code on GitHub")
 
 Check if an element has a class.
 
 **Parameters**
 
 -   `element` **Element** The element to check.
--   `name` **String** The name of the class to check for.
+-   `name` **string** The name of the class to check for.
 
 Returns **Boolean** True if the element has the class.
 
 ### height
 
-[lib/height.js:7-19](https://github.com/kasperisager/doem/blob/f43f9ebd8eae8ffea4e23afea60329afe308be69/lib/height.js#L7-L19 "Source code on GitHub")
+[lib/height.js:7-19](https://github.com/kasperisager/doem/blob/66dfd682fba4595fe30bf335cfa8f6cddd352472/lib/height.js#L7-L19 "Source code on GitHub")
 
 Get the computed height of a node.
 
@@ -230,33 +230,33 @@ Returns **Number** The computed height of the node.
 
 ### html
 
-[lib/html.js:8-14](https://github.com/kasperisager/doem/blob/f43f9ebd8eae8ffea4e23afea60329afe308be69/lib/html.js#L8-L14 "Source code on GitHub")
+[lib/html.js:8-14](https://github.com/kasperisager/doem/blob/66dfd682fba4595fe30bf335cfa8f6cddd352472/lib/html.js#L8-L14 "Source code on GitHub")
 
 Get or set the inner HTML of an element.
 
 **Parameters**
 
 -   `element` **Element** The element whose inner HTML to get or set.
--   `content` **String** The content of the inner HTML if setting.
+-   `content` **string** The content of the inner HTML if setting.
 
-Returns **String** The inner HTML of the element if getting.
+Returns **string** The inner HTML of the element if getting.
 
 ### matches
 
-[lib/matches.js:8-16](https://github.com/kasperisager/doem/blob/f43f9ebd8eae8ffea4e23afea60329afe308be69/lib/matches.js#L8-L16 "Source code on GitHub")
+[lib/matches.js:8-16](https://github.com/kasperisager/doem/blob/66dfd682fba4595fe30bf335cfa8f6cddd352472/lib/matches.js#L8-L16 "Source code on GitHub")
 
 Check if an element matches a selector.
 
 **Parameters**
 
 -   `element` **Element** The element to check.
--   `selector` **String** The selector to check against.
+-   `selector` **string** The selector to check against.
 
 Returns **Boolean** True if the element matches the selector.
 
 ### next
 
-[lib/next.js:7-9](https://github.com/kasperisager/doem/blob/f43f9ebd8eae8ffea4e23afea60329afe308be69/lib/next.js#L7-L9 "Source code on GitHub")
+[lib/next.js:7-9](https://github.com/kasperisager/doem/blob/66dfd682fba4595fe30bf335cfa8f6cddd352472/lib/next.js#L7-L9 "Source code on GitHub")
 
 Get the next sibling of an element.
 
@@ -268,7 +268,7 @@ Returns **Element** The sibling of the element if found.
 
 ### offset
 
-[lib/offset.js:9-24](https://github.com/kasperisager/doem/blob/f43f9ebd8eae8ffea4e23afea60329afe308be69/lib/offset.js#L9-L24 "Source code on GitHub")
+[lib/offset.js:9-24](https://github.com/kasperisager/doem/blob/66dfd682fba4595fe30bf335cfa8f6cddd352472/lib/offset.js#L9-L24 "Source code on GitHub")
 
 Get the current coordinates of an element relative to its document
 
@@ -280,7 +280,7 @@ Returns **** The current coordinates of the element.
 
 ### parent
 
-[lib/parent.js:7-9](https://github.com/kasperisager/doem/blob/f43f9ebd8eae8ffea4e23afea60329afe308be69/lib/parent.js#L7-L9 "Source code on GitHub")
+[lib/parent.js:7-9](https://github.com/kasperisager/doem/blob/66dfd682fba4595fe30bf335cfa8f6cddd352472/lib/parent.js#L7-L9 "Source code on GitHub")
 
 Get the parent of an element.
 
@@ -292,7 +292,7 @@ Returns **Element** The parent element if found.
 
 ### parents
 
-[lib/parents.js:9-17](https://github.com/kasperisager/doem/blob/f43f9ebd8eae8ffea4e23afea60329afe308be69/lib/parents.js#L9-L17 "Source code on GitHub")
+[lib/parents.js:9-17](https://github.com/kasperisager/doem/blob/66dfd682fba4595fe30bf335cfa8f6cddd352472/lib/parents.js#L9-L17 "Source code on GitHub")
 
 Get all the parents of an element.
 
@@ -304,7 +304,7 @@ Returns **Array&lt;Element&gt;** The parents of the element.
 
 ### position
 
-[lib/position.js:7-12](https://github.com/kasperisager/doem/blob/f43f9ebd8eae8ffea4e23afea60329afe308be69/lib/position.js#L7-L12 "Source code on GitHub")
+[lib/position.js:7-12](https://github.com/kasperisager/doem/blob/66dfd682fba4595fe30bf335cfa8f6cddd352472/lib/position.js#L7-L12 "Source code on GitHub")
 
 Get the current coordinates of an element relative to its offset parent.
 
@@ -316,18 +316,18 @@ Returns **** The current coordinates of the element.
 
 ### prepend
 
-[lib/prepend.js:7-9](https://github.com/kasperisager/doem/blob/f43f9ebd8eae8ffea4e23afea60329afe308be69/lib/prepend.js#L7-L9 "Source code on GitHub")
+[lib/prepend.js:7-9](https://github.com/kasperisager/doem/blob/66dfd682fba4595fe30bf335cfa8f6cddd352472/lib/prepend.js#L7-L9 "Source code on GitHub")
 
 Insert HTML at the beginnig of an element.
 
 **Parameters**
 
 -   `element` **Element** The element to insert the HTML at the beginning of.
--   `html` **String** The HTML to insert at the beginning of the element.
+-   `html` **string** The HTML to insert at the beginning of the element.
 
 ### prev
 
-[lib/prev.js:7-9](https://github.com/kasperisager/doem/blob/f43f9ebd8eae8ffea4e23afea60329afe308be69/lib/prev.js#L7-L9 "Source code on GitHub")
+[lib/prev.js:7-9](https://github.com/kasperisager/doem/blob/66dfd682fba4595fe30bf335cfa8f6cddd352472/lib/prev.js#L7-L9 "Source code on GitHub")
 
 Get the previous sibling of an element.
 
@@ -339,7 +339,7 @@ Returns **Element** The sibling of the element if found.
 
 ### remove
 
-[lib/remove.js:6-14](https://github.com/kasperisager/doem/blob/f43f9ebd8eae8ffea4e23afea60329afe308be69/lib/remove.js#L6-L14 "Source code on GitHub")
+[lib/remove.js:6-14](https://github.com/kasperisager/doem/blob/66dfd682fba4595fe30bf335cfa8f6cddd352472/lib/remove.js#L6-L14 "Source code on GitHub")
 
 Remove an element from its parent.
 
@@ -349,18 +349,18 @@ Remove an element from its parent.
 
 ### removeClass
 
-[lib/removeClass.js:7-9](https://github.com/kasperisager/doem/blob/f43f9ebd8eae8ffea4e23afea60329afe308be69/lib/removeClass.js#L7-L9 "Source code on GitHub")
+[lib/removeClass.js:7-9](https://github.com/kasperisager/doem/blob/66dfd682fba4595fe30bf335cfa8f6cddd352472/lib/removeClass.js#L7-L9 "Source code on GitHub")
 
 Remove a class from an element.
 
 **Parameters**
 
 -   `element` **Element** The element to remove the class from.
--   `name` **String** The name of the class to remove.
+-   `name` **string** The name of the class to remove.
 
 ### siblings
 
-[lib/siblings.js:9-28](https://github.com/kasperisager/doem/blob/f43f9ebd8eae8ffea4e23afea60329afe308be69/lib/siblings.js#L9-L28 "Source code on GitHub")
+[lib/siblings.js:9-28](https://github.com/kasperisager/doem/blob/66dfd682fba4595fe30bf335cfa8f6cddd352472/lib/siblings.js#L9-L28 "Source code on GitHub")
 
 Get all the siblings of an element.
 
@@ -372,7 +372,7 @@ Returns **Array&lt;Element&gt;** The siblings of the element.
 
 ### style
 
-[lib/style.js:9-11](https://github.com/kasperisager/doem/blob/f43f9ebd8eae8ffea4e23afea60329afe308be69/lib/style.js#L9-L11 "Source code on GitHub")
+[lib/style.js:9-11](https://github.com/kasperisager/doem/blob/66dfd682fba4595fe30bf335cfa8f6cddd352472/lib/style.js#L9-L11 "Source code on GitHub")
 
 Get the computed style of an element.
 
@@ -384,7 +384,7 @@ Returns **CSSStyleDeclaration** The computed style of the element.
 
 ### tag
 
-[lib/tag.js:7-9](https://github.com/kasperisager/doem/blob/f43f9ebd8eae8ffea4e23afea60329afe308be69/lib/tag.js#L7-L9 "Source code on GitHub")
+[lib/tag.js:7-9](https://github.com/kasperisager/doem/blob/66dfd682fba4595fe30bf335cfa8f6cddd352472/lib/tag.js#L7-L9 "Source code on GitHub")
 
 Get the tag name of the element.
 
@@ -392,11 +392,11 @@ Get the tag name of the element.
 
 -   `element` **Element** The element whose tag name to get.
 
-Returns **String** The tag name of the element.
+Returns **string** The tag name of the element.
 
 ### text
 
-[lib/text.js:7-9](https://github.com/kasperisager/doem/blob/f43f9ebd8eae8ffea4e23afea60329afe308be69/lib/text.js#L7-L9 "Source code on GitHub")
+[lib/text.js:7-9](https://github.com/kasperisager/doem/blob/66dfd682fba4595fe30bf335cfa8f6cddd352472/lib/text.js#L7-L9 "Source code on GitHub")
 
 Get the text content of an element.
 
@@ -404,22 +404,22 @@ Get the text content of an element.
 
 -   `element` **Element** The element whose text content to get.
 
-Returns **String** The text content of the element.
+Returns **string** The text content of the element.
 
 ### toggleClass
 
-[lib/toggleClass.js:7-9](https://github.com/kasperisager/doem/blob/f43f9ebd8eae8ffea4e23afea60329afe308be69/lib/toggleClass.js#L7-L9 "Source code on GitHub")
+[lib/toggleClass.js:7-9](https://github.com/kasperisager/doem/blob/66dfd682fba4595fe30bf335cfa8f6cddd352472/lib/toggleClass.js#L7-L9 "Source code on GitHub")
 
 Toggle a class on an element.
 
 **Parameters**
 
 -   `element` **Element** The element to toggle the class on.
--   `name` **String** The name of the class to toggle.
+-   `name` **string** The name of the class to toggle.
 
 ### width
 
-[lib/width.js:7-19](https://github.com/kasperisager/doem/blob/f43f9ebd8eae8ffea4e23afea60329afe308be69/lib/width.js#L7-L19 "Source code on GitHub")
+[lib/width.js:7-19](https://github.com/kasperisager/doem/blob/66dfd682fba4595fe30bf335cfa8f6cddd352472/lib/width.js#L7-L19 "Source code on GitHub")
 
 Get the computed width of a node.
 
