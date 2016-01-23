@@ -16,8 +16,6 @@ Døm was born out of the need of a minimal set of functional-style DOM utilities
 
 ## Installation
 
-Døm is fully UMD compatible and can be either [downloaded](https://github.com/kasperisager/doem/releases/latest) or installed using npm:
-
 ```sh
 $ npm install --save doem
 ```
