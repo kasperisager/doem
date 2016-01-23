@@ -432,8 +432,8 @@ Returns **number** The computed width of the node.
 ## Browser support
 
 <img alt=Chrome width=64 src=https://raw.github.com/alrra/browser-logos/master/chrome/chrome_128x128.png> | <img alt=Firefox width=64 src=https://raw.github.com/alrra/browser-logos/master/firefox/firefox_128x128.png> | <img alt=IE width=64 src=https://raw.github.com/alrra/browser-logos/master/internet-explorer/internet-explorer_128x128.png> | <img alt=Opera width=64 src=https://raw.github.com/alrra/browser-logos/master/opera/opera_128x128.png> | <img alt=Safari width=64 src=https://raw.github.com/alrra/browser-logos/master/safari/safari_128x128.png>
---- | --- | --- | --- | --- |
-Latest ✔ | Latest ✔ | 11+ ✔ | Latest ✔ | 6.1+ ✔ |
+:---: | :---: | :---: | :---: | :---:
+Latest ✔ | Latest ✔ | 11+ ✔ | Latest ✔ | 6.1+ ✔
 
 ## License
 
