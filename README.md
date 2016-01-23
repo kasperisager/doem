@@ -6,6 +6,14 @@
 
 Døm was born out of the need of a minimal set of functional-style DOM utilities that could replace core jQuery in [modern browsers](#browser-support). It relies only on the latest native browser APIs, making the library light-weight and fast. Much inspiration was taken from [You Don't Need jQuery](https://github.com/oneuijs/You-Dont-Need-jQuery).
 
+## Contents
+
+- [Installation][#installation]
+- [Usage][#usage]
+- [API][#api]
+- [Browser support][#browser-support]
+- [License][#license]
+
 ## Installation
 
 Døm is fully UMD compatible and can be either [downloaded](https://github.com/kasperisager/doem/releases/latest) or installed using npm:
