@@ -336,13 +336,14 @@ Returns **string** The tag name of the element.
 
 ### text
 
-Get the text content of an element.
+Get or set the text content of an element.
 
 **Parameters**
 
--   `element` **Element** The element whose text content to get.
+-   `element` **Element** The element whose text content to get or set.
+-   `content` **[string]** The text content if setting.
 
-Returns **string** The text content of the element.
+Returns **string** The text content if getting.
 
 ### toggleClass
 
