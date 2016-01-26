@@ -24,6 +24,7 @@ export {default as position} from './lib/position';
 export {default as prepend} from './lib/prepend';
 export {default as prev} from './lib/prev';
 export {default as remove} from './lib/remove';
+export {default as removeAttr} from './lib/removeAttr';
 export {default as removeClass} from './lib/removeClass';
 export {default as siblings} from './lib/siblings';
 export {default as style} from './lib/style';

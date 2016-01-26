@@ -295,6 +295,15 @@ Remove an element from its parent.
 
 -   `element` **Element** The element to remove.
 
+### removeAttr
+
+Remove an attribute from an element.
+
+**Parameters**
+
+-   `element` **Element** The element whose attribute to remove.
+-   `name` **string** The name of the attribute to remove.
+
 ### removeClass
 
 Remove a class from an element.
