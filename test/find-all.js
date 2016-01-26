@@ -1,6 +1,6 @@
 import test from 'tape';
 import fragment from '../lib/fragment';
-import findAll from '../lib/findAll';
+import findAll from '../lib/find-all';
 
 test('queries all elements by a selector', t => {
   const scope = fragment(`

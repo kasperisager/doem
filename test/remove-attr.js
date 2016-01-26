@@ -2,7 +2,7 @@ import test from 'tape';
 import fragment from '../lib/fragment';
 import find from '../lib/find';
 import attr from '../lib/attr';
-import removeAttr from '../lib/removeAttr';
+import removeAttr from '../lib/remove-attr';
 
 test('removes an attribute from an element', t => {
   const document = fragment(`

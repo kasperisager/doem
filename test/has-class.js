@@ -1,7 +1,7 @@
 import test from 'tape';
 import fragment from '../lib/fragment';
 import find from '../lib/find';
-import hasClass from '../lib/hasClass';
+import hasClass from '../lib/has-class';
 
 test('checks if an element has a class', t => {
   const scope = fragment(`

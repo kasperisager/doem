@@ -1,19 +1,19 @@
 import test from 'tape';
 import fragment from '../lib/fragment';
 import find from '../lib/find';
-import toggleClass from '../lib/toggleClass';
+import addClass from '../lib/add-class';
 
-test('adds or removes a class from an element based on presence', t => {
+test('adds a class to an element', t => {
   const scope = fragment(`
     <div></div>
   `);
 
   const element = find(scope, 'div');
 
-  toggleClass(element, 'foo');
+  addClass(element, 'foo');
   t.is(element.className, 'foo');
 
-  toggleClass(element, 'foo');
-  t.is(element.className, '');
+  addClass(element, 'bar');
+  t.is(element.className, 'foo bar');
   t.end();
 });
