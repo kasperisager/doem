@@ -66,9 +66,9 @@ Get or set the value of an attribute of an element.
 
 -   `element` **Element** The element whose attribute to get or set.
 -   `name` **string** The name of the attribute to get or set.
--   `value` **[Any]** The value of the attribute if setting.
+-   `value` **[string]** The value of the attribute if setting.
 
-Returns **Any** The value of the attribute if getting.
+Returns **string** The value of the attribute if getting.
 
 ### before
 
@@ -141,9 +141,9 @@ Get or set the value of a data attribute of an element.
 
 -   `element` **Element** The element whose data attribute to get or set.
 -   `key` **string** The key of the data attribute to get or set.
--   `value` **[Any]** The value of the data attribute if setting.
+-   `value` **[string]** The value of the data attribute if setting.
 
-Returns **Any** The value of the data attribute if getting.
+Returns **string** The value of the data attribute if getting.
 
 ### empty
 
