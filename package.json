@@ -1,6 +1,6 @@
 {
   "name": "doem",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A functional DOM traversal and manipulation library for modern browsers",
   "license": "MIT",
   "repository": "kasperisager/doem",
