@@ -11,8 +11,10 @@
     "prepublish": "npm run transpile"
   },
   "main": "dist/index.js",
+  "jsnext:main": "lib/index.js",
   "files": [
-    "dist"
+    "dist",
+    "lib"
   ],
   "keywords": [
     "functional",
