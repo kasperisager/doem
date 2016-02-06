@@ -324,6 +324,15 @@ Remove a class from an element.
 -   `element` **Element** The element to remove the class from.
 -   `name` **string** The name of the class to remove.
 
+### removeData
+
+Remove a data attribute from an element.
+
+**Parameters**
+
+-   `element` **Element** The element whose data attribute to remove.
+-   `key` **string** The key of the data attribute to remove.
+
 ### siblings
 
 Get all the siblings of an element.
