@@ -175,6 +175,17 @@ Find all elements matching a query.
 
 Returns **Array&lt;Element&gt;** The elements if found.
 
+### has
+
+Check if an element has a descendant matching a selector.
+
+**Parameters**
+
+-   `element` **Element** The element to check.
+-   `selector` **string** The selector to match against.
+
+Returns **Boolean** True if the element has a descendant matching the selector.
+
 ### hasClass
 
 Check if an element has a class.
