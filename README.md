@@ -383,6 +383,14 @@ Toggle a class on an element.
 -   `element` **[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)** The element to toggle the class on.
 -   `name` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** The name of the class to toggle.
 
+### unwrap
+
+Remove the parent of an element.
+
+**Parameters**
+
+-   `element` **[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)** The element whose parent to remove.
+
 ### val
 
 Get or set the value of an element.
