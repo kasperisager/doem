@@ -5,11 +5,11 @@ import data from '../lib/data';
 import removeData from '../lib/remove-data';
 
 test('removes a data attribute from an element', t => {
-  const document = fragment(`
+  const scope = fragment(`
     <div data-foo=bar></div>
   `);
 
-  const element = find(document, 'div');
+  const element = find(scope, 'div');
 
   t.is(data(element, 'foo'), 'bar');
   removeData(element, 'foo');

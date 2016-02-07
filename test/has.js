@@ -4,7 +4,7 @@ import find from '../lib/find';
 import has from '../lib/has';
 
 test('checks if an element has a descendant matching a selector', t => {
-  const document = fragment(`
+  const scope = fragment(`
     <div class=foo>
       <div class=bar>
         <div class=baz></div>
@@ -12,8 +12,8 @@ test('checks if an element has a descendant matching a selector', t => {
     </div>
   `);
 
-  const foo = find(document, '.foo');
-  const bar = find(document, '.bar');
+  const foo = find(scope, '.foo');
+  const bar = find(scope, '.bar');
 
   t.true(has(foo, '.bar'));
   t.true(has(foo, '.baz'));
