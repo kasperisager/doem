@@ -20,3 +20,8 @@ test('checks if an element has a descendant matching a selector', t => {
   t.false(has(bar, '.foo'));
   t.end();
 });
+
+test('returns false if no element is given', t => {
+  t.false(has(null, '.foo'));
+  t.end();
+});

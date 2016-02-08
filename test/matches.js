@@ -14,3 +14,8 @@ test('checks if an element matches a selector', t => {
   t.false(matches(element, '.baz'));
   t.end();
 });
+
+test('returns false if no element is given', t => {
+  t.false(matches(null, '.foo'));
+  t.end();
+});
