@@ -333,6 +333,15 @@ Remove a data attribute from an element.
 -   `element` **[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)** The element whose data attribute to remove.
 -   `key` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** The key of the data attribute to remove.
 
+### replace
+
+Replace an element with HTML.
+
+**Parameters**
+
+-   `element` **[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)** The element to replace with HTML.
+-   `html` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** The HTML to replace the element with.
+
 ### siblings
 
 Get all the siblings of an element.
