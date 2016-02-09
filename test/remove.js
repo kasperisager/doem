@@ -19,6 +19,11 @@ test('removes an element from its context', t => {
   t.end();
 });
 
+test('returns when no element is given', t => {
+  remove(null);
+  t.end();
+});
+
 test('throws when removing an element without a parent', t => {
   const scope = fragment('');
 
