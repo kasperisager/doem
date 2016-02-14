@@ -189,6 +189,18 @@ Create a deep copy on an element.
 
 -   `element` **[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)** The element to copy.
 
+**Examples**
+
+```html
+<p>Lorem ipsum</p>
+```
+
+```js
+const element = find(document, 'p');
+element !== clone(element);
+// => true
+```
+
 Returns **[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)** The copy of the element.
 
 ### closest
