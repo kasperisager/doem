@@ -141,6 +141,21 @@ Insert HTML before an element.
 -   `element` **[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)** The element to insert the HTML before.
 -   `html` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** The HTML to insert before the element.
 
+**Examples**
+
+```html
+<p>Lorem ipsum</p>
+```
+
+```js
+const element = find(document, 'p');
+before(element, '<p>Dolor sit amet</p>');
+```
+
+```html
+<p>Dolor sit amet</p><p>Lorem ipsum</p>
+```
+
 ### children
 
 Get all the children of an element.
