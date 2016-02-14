@@ -64,6 +64,21 @@ Insert HTML after an element.
 -   `element` **[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)** The element to insert the HTML after.
 -   `html` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** The HTML to insert after the element.
 
+**Examples**
+
+```html
+<p>Lorem ipsum</p>
+```
+
+```js
+const element = find(document, 'p');
+after(element, '<p>Dolor sit amet</p>');
+```
+
+```html
+<p>Lorem ipsum</p><p>Dolor sit amet</p>
+```
+
 ### append
 
 Insert HTML at the end of an element.
