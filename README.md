@@ -212,6 +212,24 @@ Get the closest matching descendant of an element.
 -   `element` **[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)** The element whose descendant to get.
 -   `selector` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** The selector to match against.
 
+**Examples**
+
+```html
+<ul class="lvl-1">
+  <li class="item-1">Item 1
+    <ul class="lvl-2">
+      <li class="item-2">Item 2</li>
+    </ul>
+  </li>
+</ul>
+```
+
+```js
+const element = find('.item-2');
+closest(element, 'ul');
+// => <ul class="lvl-2"></ul>
+```
+
 Returns **[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)** The closest matching descendant if found.
 
 ### contains
