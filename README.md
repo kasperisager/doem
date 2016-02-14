@@ -113,6 +113,23 @@ Get or set the value of an attribute of an element.
 -   `name` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** The name of the attribute to get or set.
 -   `value` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)=** The value of the attribute if setting.
 
+**Examples**
+
+```html
+<img title="Lorem ipsum">
+```
+
+```js
+const element = find(document, 'img');
+attr(element, 'title');
+// => "Lorem ipsum"
+attr(element, 'title', 'Dolor sit amet')
+```
+
+```html
+<img title="Dolor sit amet">
+```
+
 Returns **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** The value of the attribute if getting.
 
 ### before
