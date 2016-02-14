@@ -88,6 +88,21 @@ Insert HTML at the end of an element.
 -   `element` **[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)** The element to insert the HTML at the end of.
 -   `html` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** The HTML to insert at the end of the element.
 
+**Examples**
+
+```html
+<p>Lorem ipsum</p>
+```
+
+```js
+const element = find(document, 'p');
+append(element, '<b>dolor sit amet</b>');
+```
+
+```html
+<p>Lorem ipsum<b>dolor sit amet</b></p>
+```
+
 ### attr
 
 Get or set the value of an attribute of an element.
