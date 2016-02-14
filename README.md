@@ -164,6 +164,21 @@ Get all the children of an element.
 
 -   `element` **[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)** The element whose children to get.
 
+**Examples**
+
+```html
+<ul>
+  <li>Item 1</li>
+  <li>Item 2</li>
+</ul>
+```
+
+```js
+const element = find(document, 'ul');
+children(element);
+// => [<li>Item 1</li>, <li>Item 2</li>]
+```
+
 Returns **[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).&lt;[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)>** The children of the element.
 
 ### clone
