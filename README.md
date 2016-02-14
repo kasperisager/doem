@@ -225,7 +225,7 @@ Get the closest matching descendant of an element.
 ```
 
 ```js
-const element = find('.item-2');
+const element = find(document, '.item-2');
 closest(element, 'ul');
 // => <ul class="lvl-2"></ul>
 ```
