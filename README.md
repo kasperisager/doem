@@ -40,6 +40,21 @@ Add a class to an element.
 -   `element` **[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)** The element to add the class to.
 -   `name` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** The name of the class to add.
 
+**Examples**
+
+```html
+<p>Lorem ipsum</p>
+```
+
+```js
+const element = find(document, 'p');
+addClass(element, 'foo');
+```
+
+```html
+<p class=foo>Lorem ipsum</p>
+```
+
 ### after
 
 Insert HTML after an element.
