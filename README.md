@@ -690,6 +690,19 @@ Get the previous sibling of an element.
 
 -   `element` **[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)** The element whose sibling to get.
 
+**Examples**
+
+```html
+<p>Lorem ipsum</p>
+<p class=foo>Dolor sit amet</p>
+```
+
+```js
+const element = find(document, '.foo');
+prev(element);
+// => <p>Lorem ipsum</p>
+```
+
 Returns **[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)** The sibling of the element if found.
 
 ### remove
