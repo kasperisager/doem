@@ -886,6 +886,18 @@ Get the tag name of the element.
 
 -   `element` **[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)** The element whose tag name to get.
 
+**Examples**
+
+```html
+<p>Lorem ipsum</p>
+```
+
+```js
+const element = find(document, 'p');
+tag(element);
+// => 'p'
+```
+
 Returns **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** The tag name of the element.
 
 ### text
