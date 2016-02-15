@@ -858,6 +858,24 @@ Get the computed style of an element.
 
 -   `element` **[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)** The element whose computed style to get.
 
+**Examples**
+
+```css
+p {
+  color: red;
+}
+```
+
+```html
+<p style="float: right;">Lorem ipsum</p>
+```
+
+```js
+const element = find(document, 'p');
+style(element);
+// => CSSStyleDeclaration { color: 'rgb(255, 0, 0)', float: 'right', ... }
+```
+
 Returns **CSSStyleDeclaration** The computed style of the element.
 
 ### tag
