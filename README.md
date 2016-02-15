@@ -977,6 +977,23 @@ Get or set the value of an element.
 -   `element` **[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)** The element whose value to get or set.
 -   `value` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)=** The value of the element if setting.
 
+**Examples**
+
+```html
+<input value=foo></input>
+```
+
+```js
+const element = find(document, 'input');
+val(element);
+// => 'foo'
+val(element, 'bar');
+```
+
+```html
+<input value=bar></input>
+```
+
 Returns **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** The value of the element if getting.
 
 ### width
