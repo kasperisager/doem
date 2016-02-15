@@ -535,6 +535,19 @@ Get the next sibling of an element.
 
 -   `element` **[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)** The element whose sibling to get.
 
+**Examples**
+
+```html
+<p class=foo>Lorem ipsum</p>
+<p>Dolor sit amet</p>
+```
+
+```js
+const element = find(document, '.foo');
+next(element);
+// => <p>Dolor sit amet</p>
+```
+
 Returns **[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)** The sibling of the element if found.
 
 ### offset
