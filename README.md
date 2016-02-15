@@ -713,6 +713,21 @@ Remove an element from its parent.
 
 -   `element` **[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)** The element to remove.
 
+**Examples**
+
+```html
+<p>Lorem <b>ipsum</b></p>
+```
+
+```js
+const element = find(document, 'b');
+remove(element);
+```
+
+```html
+<p>Lorem </p>
+```
+
 ### removeAttr
 
 Remove an attribute from an element.
