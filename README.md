@@ -429,6 +429,18 @@ Check if an element has a class.
 -   `element` **[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)** The element to check.
 -   `name` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** The name of the class to check for.
 
+**Examples**
+
+```html
+<p class=foo>Lorem ipsum</p>
+```
+
+```js
+const element = find(document, 'p');
+hasClass(element, 'foo');
+// => true
+```
+
 Returns **[boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)** True if the element has the class.
 
 ### height
