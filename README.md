@@ -636,6 +636,26 @@ Get the current coordinates of an element relative to its offset parent.
 
 -   `element` **[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)** The element whose coordinates to get.
 
+**Examples**
+
+```css
+div {
+  padding: 20px 10px;
+}
+```
+
+```html
+<div>
+  <span>Lorem ipsum</span>
+</div>
+```
+
+```js
+const element = find(document, 'span');
+position(element);
+// => {top: 20, left: 10}
+```
+
 Returns **{top: [number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number), left: [number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)}** The current coordinates of the element.
 
 ### prepend
