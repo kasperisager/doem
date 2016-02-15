@@ -513,6 +513,18 @@ Check if an element matches a selector.
 -   `element` **[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)** The element to check.
 -   `selector` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** The selector to check against.
 
+**Examples**
+
+```html
+<p class=foo>Lorem ipsum</p>
+```
+
+```js
+const element = find(document, 'p');
+matches(element, 'div.foo');
+// => true
+```
+
 Returns **[boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)** True if the element matches the selector.
 
 ### next
