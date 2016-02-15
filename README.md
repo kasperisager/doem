@@ -404,6 +404,20 @@ Check if an element has a descendant matching a selector.
 -   `element` **[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)** The element to check.
 -   `selector` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** The selector to match against.
 
+**Examples**
+
+```html
+<div class=foo>
+  <div class=bar></div>
+</div>
+```
+
+```js
+const element = find(document, '.foo');
+has(element, '.bar');
+// => true
+```
+
 Returns **[boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)** True if the element has a descendant matching the selector.
 
 ### hasClass
