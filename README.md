@@ -354,6 +354,20 @@ Find the first element matching a query.
 -   `scope` **([Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)\|[Document](https://developer.mozilla.org/en-US/docs/Web/JavaScript))** The scope to look through.
 -   `query` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** The query to use for looking up the element.
 
+**Examples**
+
+```html
+<ul>
+  <li>Item 1</li>
+  <li>Item 2</li>
+</ul>
+```
+
+```js
+find(document, 'li');
+// => <li>Item 1</li>
+```
+
 Returns **[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)** The element if found.
 
 ### findAll
