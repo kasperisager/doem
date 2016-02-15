@@ -909,6 +909,23 @@ Get or set the text content of an element.
 -   `element` **[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)** The element whose text content to get or set.
 -   `content` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)=** The text content if setting.
 
+**Examples**
+
+```html
+<p>Lorem <b>ipsum</b></p>
+```
+
+```js
+const element = find(document, 'p');
+text(element);
+// => 'Lorem ipsum'
+text(element, 'Lorem ipsum');
+```
+
+```html
+<p>Lorem ipsum</p>
+```
+
 Returns **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** The text content if getting.
 
 ### toggleClass
