@@ -330,6 +330,21 @@ Remove all children (including text) from an element.
 
 -   `element` **[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)** The element whose children to remove.
 
+**Examples**
+
+```html
+<p>Lorem <b>ipsum</b></p>
+```
+
+```js
+const element = find(document, 'p');
+empty(element);
+```
+
+```html
+<p></p>
+```
+
 ### find
 
 Find the first element matching a query.
