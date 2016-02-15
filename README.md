@@ -968,6 +968,25 @@ Remove the parent of an element.
 
 -   `element` **[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)** The element whose parent to remove.
 
+**Examples**
+
+```html
+<div>
+  <p class=foo>Lorem ipsum</p>
+  <p>Dolor sit amet</p>
+</div>
+```
+
+```js
+const element = find(document, '.foo');
+unwrap(element);
+```
+
+```html
+<p class=foo>Lorem ipsum</p>
+<p>Dolor sit amet</p>
+```
+
 ### val
 
 Get or set the value of an element.
