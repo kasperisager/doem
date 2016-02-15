@@ -832,6 +832,22 @@ Get all the siblings of an element.
 
 -   `element` **[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)** The element whose siblings to get.
 
+**Examples**
+
+```html
+<ul>
+  <li>Item 1</li>
+  <li class=foo>Item 2</li>
+  <li>Item 3</li>
+</ul>
+```
+
+```js
+const element = find(document, '.foo');
+siblings(element);
+// => [<li>Item 1</li>, <li>Item 2</li>]
+```
+
 Returns **[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).&lt;[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)>** The siblings of the element.
 
 ### style
