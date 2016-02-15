@@ -937,6 +937,29 @@ Toggle a class on an element.
 -   `element` **[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)** The element to toggle the class on.
 -   `name` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** The name of the class to toggle.
 
+**Examples**
+
+```html
+<p>Lorem ipsum</p>
+```
+
+```js
+const element = find(document, 'p');
+toggleClass(element, 'foo');
+```
+
+```html
+<p class=foo>Lorem ipsum</p>
+```
+
+```js
+toggleClass(element, 'foo');
+```
+
+```html
+<p>Lorem ipsum</p>
+```
+
 ### unwrap
 
 Remove the parent of an element.
