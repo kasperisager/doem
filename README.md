@@ -122,7 +122,7 @@ Get or set the value of an attribute of an element.
 ```js
 const element = find(document, 'img');
 attr(element, 'title');
-// => "Lorem ipsum"
+// => 'Lorem ipsum'
 attr(element, 'title', 'Dolor sit amet')
 ```
 
@@ -227,7 +227,7 @@ Get the closest matching descendant of an element.
 ```js
 const element = find(document, '.item-2');
 closest(element, 'ul');
-// => <ul class="lvl-2"></ul>
+// => <ul class="lvl-2">...</ul>
 ```
 
 Returns **[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)** The closest matching descendant if found.
@@ -266,7 +266,7 @@ Get or set the value of a CSS property of an element.
 
 -   `element` **[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)** The element whose CSS property to get or set.
 -   `property` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** The CSS property to get or set.
--   `value` **Any=** The value of the CSS property if setting.
+-   `value` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)=** The value of the CSS property if setting.
 
 **Examples**
 
@@ -291,7 +291,7 @@ css(element, 'color', 'blue');
 <p style="color: blue;">Lorem ipsum</p>
 ```
 
-Returns **Any** The value of the CSS property if getting.
+Returns **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** The value of the CSS property if getting.
 
 ### data
 
@@ -494,7 +494,7 @@ Get or set the inner HTML of an element.
 ```js
 const element = find(document, 'p');
 html(element);
-// => Lorem <b>ipsum</b>
+// => 'Lorem <b>ipsum</b>''
 html(element, 'Dolor sit <b>amet</b>');
 ```
 
