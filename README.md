@@ -365,6 +365,20 @@ Find all elements matching a query.
 -   `scope` **([Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)\|[Document](https://developer.mozilla.org/en-US/docs/Web/JavaScript))** The scope to look through.
 -   `query` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** The query to use for looking up the elements.
 
+**Examples**
+
+```html
+<ul>
+  <li>Item 1</li>
+  <li>Item 2</li>
+</ul>
+```
+
+```html
+findAll(document, 'li');
+// => [<li>Item 1</li>, <li>Item 2</li>]
+```
+
 Returns **[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).&lt;[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)>** The elements if found.
 
 ### has
