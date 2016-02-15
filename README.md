@@ -809,6 +809,21 @@ Replace an element with HTML.
 -   `element` **[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)** The element to replace with HTML.
 -   `html` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** The HTML to replace the element with.
 
+**Examples**
+
+```html
+<p>Lorem <b>ipsum<b></p>
+```
+
+```js
+const element = find(document, 'b');
+replace(element, '<i>ipsum</i>');
+```
+
+```html
+<p>Lorem <i>ipsum<i></p>
+```
+
 ### siblings
 
 Get all the siblings of an element.
