@@ -485,6 +485,23 @@ Get or set the inner HTML of an element.
 -   `element` **[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)** The element whose inner HTML to get or set.
 -   `content` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** The content of the inner HTML if setting.
 
+**Examples**
+
+```html
+<p>Lorem <b>ipsum</b></p>
+```
+
+```js
+const element = find(document, 'p');
+html(element);
+// => Lorem <b>ipsum</b>
+html(element, 'Dolor sit <b>amet</b>');
+```
+
+```html
+<p>Dolor sit <b>amet</b></p>
+```
+
 Returns **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** The inner HTML of the element if getting.
 
 ### matches
