@@ -746,6 +746,21 @@ Remove a class from an element.
 -   `element` **[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)** The element to remove the class from.
 -   `name` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** The name of the class to remove.
 
+**Examples**
+
+```js
+<p class="foo bar">Lorem ipsum</p>
+```
+
+```js
+const element = find(document, 'p');
+removeClass(element, 'foo');
+```
+
+```html
+<p class=bar>Lorem ipsum</p>
+```
+
 ### removeData
 
 Remove a data attribute from an element.
