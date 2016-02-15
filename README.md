@@ -722,6 +722,21 @@ Remove an attribute from an element.
 -   `element` **[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)** The element whose attribute to remove.
 -   `name` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** The name of the attribute to remove.
 
+**Examples**
+
+```html
+<img title="Lorem ipsum">
+```
+
+```js
+const element = find(document, 'img');
+removeAttr(element, 'title');
+```
+
+```html
+<img>
+```
+
 ### removeClass
 
 Remove a class from an element.
