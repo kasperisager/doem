@@ -303,6 +303,23 @@ Get or set the value of a data attribute of an element.
 -   `key` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** The key of the data attribute to get or set.
 -   `value` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)=** The value of the data attribute if setting.
 
+**Examples**
+
+```html
+<p data-foo=bar>Lorem ipsum</p>
+```
+
+```js
+const element = find(document, 'p');
+data(element, 'foo');
+// => 'bar'
+data(element, 'foo', 'baz')
+```
+
+```html
+<p data-foo=baz>Lorem ipsum</p>
+```
+
 Returns **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** The value of the data attribute if getting.
 
 ### empty
