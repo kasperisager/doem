@@ -612,6 +612,20 @@ Get all the parents of an element.
 
 -   `element` **[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)** The element whose parents to get.
 
+**Examples**
+
+```html
+<div>
+  <p>Lorem <b>ipsum</b></p>
+</div>
+```
+
+```js
+const element = find(document, 'b');
+parents(element);
+// => [<p>...</p>, <div>...</div>]
+```
+
 Returns **[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).&lt;[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)>** The parents of the element.
 
 ### position
