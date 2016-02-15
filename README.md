@@ -241,6 +241,21 @@ Check if an element is a descendant of another element.
 -   `element` **[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)** The parent element to check against.
 -   `child` **[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)** The child element to check for.
 
+**Examples**
+
+```html
+<div class=foo>
+  <div class=bar></div>
+</div>
+```
+
+```js
+const foo = find(document, '.foo');
+const bar = find(document, '.bar');
+contains(foo, bar);
+// => true
+```
+
 Returns **[boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)** True if the child is a descendant of the parent.
 
 ### css
