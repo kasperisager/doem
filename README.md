@@ -451,6 +451,29 @@ Get the computed height of a node.
 
 -   `node` **([Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)\|[Document](https://developer.mozilla.org/en-US/docs/Web/JavaScript)\|[Window](https://developer.mozilla.org/en-US/docs/Web/API/Window))** The node whose computed height to get.
 
+**Examples**
+
+```css
+div {
+  padding: 10px 0 5px;
+}
+p {
+  line-height: 20px;
+}
+```
+
+```html
+<div>
+  <p>Lorem ipsum</p>
+</div>
+```
+
+```js
+const element = find(document, 'div');
+height(element);
+// => 35
+```
+
 Returns **[number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)** The computed height of the node.
 
 ### html
