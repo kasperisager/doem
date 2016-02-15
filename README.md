@@ -667,6 +667,21 @@ Insert HTML at the beginnig of an element.
 -   `element` **[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)** The element to insert the HTML at the beginning of.
 -   `html` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** The HTML to insert at the beginning of the element.
 
+**Examples**
+
+```html
+<p>Lorem ipsum</p>
+```
+
+```js
+const element = find(document, 'p');
+append(element, '<b>Dolor sit amet</b>');
+```
+
+```html
+<p><b>Dolor sit amet</b>Lorem ipsum</p>
+```
+
 ### prev
 
 Get the previous sibling of an element.
