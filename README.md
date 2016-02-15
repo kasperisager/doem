@@ -588,6 +588,20 @@ Get the parent of an element.
 
 -   `element` **[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)** The element whose parent to get.
 
+**Examples**
+
+```html
+<div>
+  <p>Lorem ipsum</p>
+</div>
+```
+
+```js
+const element = find(document, 'p');
+parent(element);
+// => <div>...</div>
+```
+
 Returns **[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)** The parent element if found.
 
 ### parents
