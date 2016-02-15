@@ -1004,6 +1004,29 @@ Get the computed width of a node.
 
 -   `node` **([Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)\|[Document](https://developer.mozilla.org/en-US/docs/Web/JavaScript)\|[Window](https://developer.mozilla.org/en-US/docs/Web/API/Window))** The node whose computed width to get.
 
+**Examples**
+
+```css
+div {
+  padding: 0 10px;
+}
+p {
+  width: 40px;
+}
+```
+
+```html
+<div>
+  <p>Lorem ipsum</p>
+</div>
+```
+
+```js
+const element = find(document, 'div');
+width(element);
+// => 60
+```
+
 Returns **[number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)** The computed width of the node.
 
 ### wrap
