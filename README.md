@@ -770,6 +770,21 @@ Remove a data attribute from an element.
 -   `element` **[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)** The element whose data attribute to remove.
 -   `key` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** The key of the data attribute to remove.
 
+**Examples**
+
+```html
+<p data-foo=bar>Lorem ipsum</p>
+```
+
+```js
+const element = find(document, 'p');
+removeData(element, 'foo');
+```
+
+```html
+<p>Lorem ipsum</p>
+```
+
 ### replace
 
 Replace an element with HTML.
