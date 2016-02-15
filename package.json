@@ -8,7 +8,8 @@
   "scripts": {
     "test": "xo && browserify test/*.js | tape-run",
     "transpile": "babel --presets es2015 lib -d dist",
-    "prepublish": "npm run transpile"
+    "prepublish": "npm run transpile",
+    "document": "documentation readme -s API -c package.json lib/index.js"
   },
   "main": "dist/index.js",
   "jsnext:main": "lib/index.js",
@@ -30,6 +31,7 @@
     "babel-preset-es2015": "^6.3.13",
     "babelify": "^7.2.0",
     "browserify": "^13.0.0",
+    "documentation": "^4.0.0-beta",
     "tape": "^4.4.0",
     "tape-run": "^2.1.2",
     "xo": "^0.12.1"
@@ -44,6 +46,14 @@
           ]
         }
       ]
+    ]
+  },
+  "hljs": {
+    "highlightAuto": true,
+    "languages": [
+      "js",
+      "html",
+      "css"
     ]
   },
   "xo": {
