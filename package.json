@@ -52,7 +52,8 @@
     "highlightAuto": true,
     "languages": [
       "js",
-      "html"
+      "html",
+      "css"
     ]
   },
   "xo": {

@@ -268,6 +268,29 @@ Get or set the value of a CSS property of an element.
 -   `property` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** The CSS property to get or set.
 -   `value` **Any=** The value of the CSS property if setting.
 
+**Examples**
+
+```css
+p {
+  color: red;
+}
+```
+
+```html
+<p>Lorem ipsum</p>
+```
+
+```js
+const element = find(document, 'p');
+css(element, 'color');
+// => rgb(255, 0, 0)
+css(element, 'color', 'blue');
+```
+
+```html
+<p style="color: blue;">Lorem ipsum</p>
+```
+
 Returns **Any** The value of the CSS property if getting.
 
 ### data
