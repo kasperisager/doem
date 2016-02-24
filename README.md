@@ -2,7 +2,7 @@
 
 > A functional DOM traversal and manipulation library for modern browsers
 
-[![Build Status](https://travis-ci.org/kasperisager/doem.svg?branch=master)](https://travis-ci.org/kasperisager/doem) [![Inline docs](http://inch-ci.org/github/kasperisager/doem.svg?branch=master)](http://inch-ci.org/github/kasperisager/doem)
+[![Build Status](https://travis-ci.org/kasperisager/doem.svg?branch=master)](https://travis-ci.org/kasperisager/doem) [![Code Climate](https://codeclimate.com/github/kasperisager/doem/badges/gpa.svg)](https://codeclimate.com/github/kasperisager/doem) [![Inline docs](http://inch-ci.org/github/kasperisager/doem.svg?branch=master)](http://inch-ci.org/github/kasperisager/doem)
 
 Døm was born out of the need of a minimal set of functional-style DOM utilities that could replace core jQuery in [modern browsers](#browser-support). It relies only on the latest native browser APIs, making the library light-weight and fast. Much inspiration was taken from [You Don't Need jQuery](https://github.com/oneuijs/You-Dont-Need-jQuery).
 
