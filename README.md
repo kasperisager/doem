@@ -22,6 +22,8 @@ $ npm install --save doem
 
 ## Usage
 
+[<img src=https://tonicdev.com/favicon.ico width=25 align=top> __Try out Døm in your browser__](https://tonicdev.com/npm/doem)
+
 ```js
 import {find, html, [...]} from 'doem';
 
