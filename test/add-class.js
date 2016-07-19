@@ -1,7 +1,7 @@
 import test from 'tape';
-import fragment from '../lib/fragment';
-import find from '../lib/find';
-import addClass from '../lib/add-class';
+import {fragment} from '../lib/fragment';
+import {find} from '../lib/find';
+import {addClass} from '../lib/add-class';
 
 test('adds a class to an element', t => {
   const scope = fragment(`

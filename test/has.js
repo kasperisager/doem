@@ -1,7 +1,7 @@
 import test from 'tape';
-import fragment from '../lib/fragment';
-import find from '../lib/find';
-import has from '../lib/has';
+import {fragment} from '../lib/fragment';
+import {find} from '../lib/find';
+import {has} from '../lib/has';
 
 test('checks if an element has a descendant matching a selector', t => {
   const scope = fragment(`

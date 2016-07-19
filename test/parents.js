@@ -1,7 +1,7 @@
 import test from 'tape';
-import fragment from '../lib/fragment';
-import find from '../lib/find';
-import parents from '../lib/parents';
+import {fragment} from '../lib/fragment';
+import {find} from '../lib/find';
+import {parents} from '../lib/parents';
 
 test('gets the parents of an element', t => {
   const scope = fragment(`

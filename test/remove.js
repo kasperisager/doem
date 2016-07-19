@@ -1,7 +1,7 @@
 import test from 'tape';
-import fragment from '../lib/fragment';
-import find from '../lib/find';
-import remove from '../lib/remove';
+import {fragment} from '../lib/fragment';
+import {find} from '../lib/find';
+import {remove} from '../lib/remove';
 
 test('removes an element from its context', t => {
   const scope = fragment(`

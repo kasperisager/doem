@@ -1,8 +1,8 @@
 import test from 'tape';
-import fragment from '../lib/fragment';
-import find from '../lib/find';
-import html from '../lib/html';
-import empty from '../lib/empty';
+import {fragment} from '../lib/fragment';
+import {find} from '../lib/find';
+import {html} from '../lib/html';
+import {empty} from '../lib/empty';
 
 test('removes all children of an element', t => {
   const scope = fragment(`

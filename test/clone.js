@@ -1,9 +1,9 @@
 import test from 'tape';
-import fragment from '../lib/fragment';
-import find from '../lib/find';
-import tag from '../lib/tag';
-import html from '../lib/html';
-import clone from '../lib/clone';
+import {fragment} from '../lib/fragment';
+import {find} from '../lib/find';
+import {tag} from '../lib/tag';
+import {html} from '../lib/html';
+import {clone} from '../lib/clone';
 
 test('creates a deep copy of an element', t => {
   const scope = fragment(`

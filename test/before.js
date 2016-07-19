@@ -1,8 +1,8 @@
 import test from 'tape';
-import fragment from '../lib/fragment';
-import find from '../lib/find';
-import html from '../lib/html';
-import before from '../lib/before';
+import {fragment} from '../lib/fragment';
+import {find} from '../lib/find';
+import {html} from '../lib/html';
+import {before} from '../lib/before';
 
 test('inserts content before an element', t => {
   const scope = fragment(`

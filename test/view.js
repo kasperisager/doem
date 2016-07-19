@@ -1,7 +1,7 @@
 import test from 'tape';
-import frame from '../lib/frame';
-import find from '../lib/find';
-import view from '../lib/view';
+import {frame} from '../lib/frame';
+import {find} from '../lib/find';
+import {view} from '../lib/view';
 
 test('gets the window an element is contained within', t => {
   const context = frame(`

@@ -1,7 +1,7 @@
 import test from 'tape';
-import fragment from '../lib/fragment';
-import find from '../lib/find';
-import matches from '../lib/matches';
+import {fragment} from '../lib/fragment';
+import {find} from '../lib/find';
+import {matches} from '../lib/matches';
 
 test('checks if an element matches a selector', t => {
   const scope = fragment(`

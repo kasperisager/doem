@@ -1,8 +1,8 @@
 import test from 'tape';
-import fragment from '../lib/fragment';
-import find from '../lib/find';
-import html from '../lib/html';
-import wrap from '../lib/wrap';
+import {fragment} from '../lib/fragment';
+import {find} from '../lib/find';
+import {html} from '../lib/html';
+import {wrap} from '../lib/wrap';
 
 test('wraps an HTML structure around an element', t => {
   const scope = fragment(`

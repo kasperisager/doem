@@ -1,8 +1,8 @@
 import test from 'tape';
-import fragment from '../lib/fragment';
-import find from '../lib/find';
-import html from '../lib/html';
-import replace from '../lib/replace';
+import {fragment} from '../lib/fragment';
+import {find} from '../lib/find';
+import {html} from '../lib/html';
+import {replace} from '../lib/replace';
 
 test('replaces an element with content', t => {
   const scope = fragment(`

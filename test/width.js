@@ -1,7 +1,7 @@
 import test from 'tape';
-import frame from '../lib/frame';
-import find from '../lib/find';
-import width from '../lib/width';
+import {frame} from '../lib/frame';
+import {find} from '../lib/find';
+import {width} from '../lib/width';
 
 test('gets the computed width of an element', t => {
   const context = frame(`

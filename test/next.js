@@ -1,7 +1,7 @@
 import test from 'tape';
-import fragment from '../lib/fragment';
-import find from '../lib/find';
-import next from '../lib/next';
+import {fragment} from '../lib/fragment';
+import {find} from '../lib/find';
+import {next} from '../lib/next';
 
 test('gets the succeeding sibling of an element', t => {
   const scope = fragment(`

@@ -1,7 +1,7 @@
 import test from 'tape';
-import frame from '../lib/frame';
-import find from '../lib/find';
-import css from '../lib/css';
+import {frame} from '../lib/frame';
+import {find} from '../lib/find';
+import {css} from '../lib/css';
 
 test('gets the value of a CSS property', t => {
   const context = frame(`

@@ -1,7 +1,7 @@
 import test from 'tape';
-import frame from '../lib/frame';
-import find from '../lib/find';
-import offset from '../lib/offset';
+import {frame} from '../lib/frame';
+import {find} from '../lib/find';
+import {offset} from '../lib/offset';
 
 test('gets the current coordinates of an element relative to its document', t => {
   const context = frame(`

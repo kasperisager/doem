@@ -1,7 +1,7 @@
 import test from 'tape';
-import fragment from '../lib/fragment';
-import find from '../lib/find';
-import siblings from '../lib/siblings';
+import {fragment} from '../lib/fragment';
+import {find} from '../lib/find';
+import {siblings} from '../lib/siblings';
 
 test('gets the siblings of an element', t => {
   const scope = fragment(`

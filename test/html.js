@@ -1,7 +1,7 @@
 import test from 'tape';
-import fragment from '../lib/fragment';
-import find from '../lib/find';
-import html from '../lib/html';
+import {fragment} from '../lib/fragment';
+import {find} from '../lib/find';
+import {html} from '../lib/html';
 
 test('gets the inner HTML of an element', t => {
   const scope = fragment(`

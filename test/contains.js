@@ -1,7 +1,7 @@
 import test from 'tape';
-import fragment from '../lib/fragment';
-import find from '../lib/find';
-import contains from '../lib/contains';
+import {fragment} from '../lib/fragment';
+import {find} from '../lib/find';
+import {contains} from '../lib/contains';
 
 test('checks if an element is a descendant of another element', t => {
   const scope = fragment(`

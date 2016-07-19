@@ -1,7 +1,7 @@
 import test from 'tape';
-import frame from '../lib/frame';
-import find from '../lib/find';
-import height from '../lib/height';
+import {frame} from '../lib/frame';
+import {find} from '../lib/find';
+import {height} from '../lib/height';
 
 test('gets the computed height of an element', t => {
   const context = frame(`

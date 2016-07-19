@@ -1,7 +1,7 @@
 import test from 'tape';
-import fragment from '../lib/fragment';
-import find from '../lib/find';
-import children from '../lib/children';
+import {fragment} from '../lib/fragment';
+import {find} from '../lib/find';
+import {children} from '../lib/children';
 
 test('gets all the direct descendants of an element', t => {
   const scope = fragment(`

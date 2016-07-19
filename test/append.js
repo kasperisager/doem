@@ -1,8 +1,8 @@
 import test from 'tape';
-import fragment from '../lib/fragment';
-import find from '../lib/find';
-import html from '../lib/html';
-import append from '../lib/append';
+import {fragment} from '../lib/fragment';
+import {find} from '../lib/find';
+import {html} from '../lib/html';
+import {append} from '../lib/append';
 
 test('inserts content at the end of an element', t => {
   const scope = fragment(`

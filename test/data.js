@@ -1,7 +1,7 @@
 import test from 'tape';
-import fragment from '../lib/fragment';
-import find from '../lib/find';
-import data from '../lib/data';
+import {fragment} from '../lib/fragment';
+import {find} from '../lib/find';
+import {data} from '../lib/data';
 
 test('gets the value of a data attribute', t => {
   const scope = fragment(`

@@ -1,7 +1,7 @@
 import test from 'tape';
-import fragment from '../lib/fragment';
-import find from '../lib/find';
-import prev from '../lib/prev';
+import {fragment} from '../lib/fragment';
+import {find} from '../lib/find';
+import {prev} from '../lib/prev';
 
 test('gets the preceeding sibling of an element', t => {
   const scope = fragment(`

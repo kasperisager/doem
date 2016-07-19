@@ -1,7 +1,7 @@
 import test from 'tape';
-import frame from '../lib/frame';
-import find from '../lib/find';
-import style from '../lib/style';
+import {frame} from '../lib/frame';
+import {find} from '../lib/find';
+import {style} from '../lib/style';
 
 test('gets the computed style of an element', t => {
   const context = frame(`

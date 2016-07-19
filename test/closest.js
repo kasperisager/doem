@@ -1,7 +1,7 @@
 import test from 'tape';
-import fragment from '../lib/fragment';
-import find from '../lib/find';
-import closest from '../lib/closest';
+import {fragment} from '../lib/fragment';
+import {find} from '../lib/find';
+import {closest} from '../lib/closest';
 
 test('gets the closest ascending element matching a selector', t => {
   const scope = fragment(`
