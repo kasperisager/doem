@@ -24,11 +24,6 @@ test('gets the computed width of an element', t => {
   t.end();
 });
 
-test('gets the computed width of a document', t => {
-  t.is(width(document), document.documentElement.scrollWidth);
-  t.end();
-});
-
 test('gets the computed height of a window', t => {
   t.is(width(window), document.documentElement.clientWidth);
   t.end();

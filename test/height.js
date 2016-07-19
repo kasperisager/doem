@@ -24,11 +24,6 @@ test('gets the computed height of an element', t => {
   t.end();
 });
 
-test('gets the computed height of a document', t => {
-  t.is(height(document), document.documentElement.scrollHeight);
-  t.end();
-});
-
 test('gets the computed height of a window', t => {
   t.is(height(window), document.documentElement.clientHeight);
   t.end();
