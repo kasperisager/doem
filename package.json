@@ -7,9 +7,7 @@
   "author": "Kasper Kronborg Isager <kasperisager@gmail.com>",
   "scripts": {
     "test": "xo && browserify -t babelify test/*.js | tape-run",
-    "transpile": "babel --presets es2015 lib -d dist",
-    "prepublish": "npm run transpile",
-    "document": "documentation readme -s API -c package.json lib/index.js"
+    "prepublish": "babel lib -d dist"
   },
   "main": "dist/index.js",
   "jsnext:main": "lib/index.js",
@@ -31,7 +29,6 @@
     "babel-preset-es2015": "^6.6.0",
     "babelify": "^7.2.0",
     "browserify": "^13.0.0",
-    "documentation": "^4.0.0-beta1",
     "tape": "^4.5.1",
     "tape-run": "^2.1.2",
     "xo": "^0.12.1"

@@ -17,7 +17,7 @@ Døm was born out of the need of a minimal set of functional-style DOM utilities
 ## Installation
 
 ```sh
-$ npm install --save doem
+$ yarn add doem
 ```
 
 ## Usage
